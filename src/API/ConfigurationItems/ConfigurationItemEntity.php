@@ -30,7 +30,7 @@ class ConfigurationItemEntity extends DataTransferObject
     public ?string $dattoInternalIP;
     public ?int $dattoKernelVersionID;
     public ?Carbon $dattoLastCheckInDateTime;
-    public ?int $dattoNicSpeedKilobitsPerSecond;
+    public ?int $dattoNICSpeedKilobitsPerSecond;
     public ?int $dattoNumberOfAgents;
     public ?int $dattoNumberOfDrives;
     public ?int $dattoNumberOfVolumes;
@@ -42,7 +42,7 @@ class ConfigurationItemEntity extends DataTransferObject
     public ?string $dattoSerialNumber;
     public ?int $dattoUptimeSeconds;
     public $dattoUsedKilobytes;
-    public ?int $dattoZfsVersionID;
+    public ?int $dattoZFSVersionID;
     public ?string $deviceNetworkingID;
     public ?string $domain;
     public ?Carbon $domainExpirationDateTime;
@@ -91,13 +91,13 @@ class ConfigurationItemEntity extends DataTransferObject
     public ?int $rmmDeviceAuditPatchStatusID;
     public ?int $rmmDeviceAuditProcessorID;
     public ?int $rmmDeviceAuditServicePackID;
-    public ?string $rmmDeviceAuditSnmpContact;
-    public ?string $rmmDeviceAuditSnmpLocation;
-    public ?string $rmmDeviceAuditSnmpName;
+    public ?string $rmmDeviceAuditSNMPContact;
+    public ?string $rmmDeviceAuditSNMPLocation;
+    public ?string $rmmDeviceAuditSNMPName;
     public ?int $rmmDeviceAuditSoftwareStatusID;
     public $rmmDeviceAuditStorageBytes;
     public $rmmDeviceID;
-    public ?string $rmmDeviceUid;
+    public ?string $rmmDeviceUID;
     public ?int $rmmOpenAlertCount;
     public ?string $serialNumber;
     public ?int $serviceBundleID;
